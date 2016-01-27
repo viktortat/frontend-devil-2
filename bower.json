@@ -1,0 +1,24 @@
+{
+  "name": "frontend-devil-2",
+  "description": "",
+  "main": "",
+  "authors": [
+    "insayt"
+  ],
+  "license": "MIT License",
+  "keywords": [
+    "gulp"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.6"
+  }
+}
