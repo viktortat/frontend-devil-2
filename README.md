@@ -30,3 +30,12 @@
 - ```gulp clean```
     -   Remove ```/dist``` directory
 - ```gulp js:build```, ```gulp style:build```, ```gulp html:build```, ```gulp fonts:build```, ```gulp images:build``` for selective build
+
+## Settings
+All project path you can find in ```gulp/path.js```. Just add you folder in ```srcDir``` and ```publicDir``` and start to work :)
+
+All plugins config with link to npm you can find in ```gulp/config.js```
+
+## Multiple bundles
+Just add new .js or .sass file in ```path.entries```
+
