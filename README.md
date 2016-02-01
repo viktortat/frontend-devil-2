@@ -21,7 +21,7 @@
 
 ## Gulp Tasks
 - ```gulp```
-    - Start ```gulp:build``` && add watch
+    - Start ```gulp build``` && add watch
 - ```gulp build```
     - Rebuild all project files
 - ```gulp clean```
