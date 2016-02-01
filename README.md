@@ -11,6 +11,9 @@
 - Image optimization
 - ES2015 features by using Babel && Browserify
 - Multiple bundles
+- JADE templates
+- Errors notification
+- All configs && paths in one place
 
 ## Getting Started
 - Clone this repo
