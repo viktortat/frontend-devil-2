@@ -33,22 +33,25 @@ class Js {
      * @param watch {boolean} If you need enable watchify
      */
     static build(watch) {
-        let b = browserify(Object.assign(config.browserify, { entries: path.entries.js }));
+        
 
-        function rebundle() {
-            b.bundle()
-                .on('error', errorHandler)
-                .pipe(source('app.js'))
-                .pipe(buffer())
-                .pipe($.sourcemaps.init(config.sourceMap.init))
-                .pipe($.uglify())
-                .pipe($.sourcemaps.write('./', config.sourceMap.write))
-                .pipe(gulp.dest(path.dest.js))
-        }
+        //let b = browserify(Object.assign(config.browserify, { entries: path.entries.js }));
+        //
+        //function rebundle() {
+        //    b.bundle()
+        //        .on('error', errorHandler)
+        //        .pipe(source())
+        //        .pipe(buffer())
+        //        .pipe($.sourcemaps.init(config.sourceMap.init))
+        //        //.pipe($.uglify(config.uglify))
+        //        .pipe($.sourcemaps.write('./', config.sourceMap.write))
+        //        .pipe(gulp.dest(path.dest.js))
+        //}
+        //
+        //if(watch) b.on('update', rebundle);
+        //
+        //rebundle();
 
-        if(watch) b.on('update', rebundle);
-
-        rebundle();
     }
 
     /**

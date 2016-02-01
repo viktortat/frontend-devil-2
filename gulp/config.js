@@ -33,8 +33,14 @@ export default {
     // https://www.npmjs.com/package/gulp-jshint
     jshint: { esnext: true },
 
+    // https://www.npmjs.com/package/gulp-uglify
+    uglify: {},
+
     // https://www.npmjs.com/package/gulp-jade
     jade: {},
+
+    // https://www.npmjs.com/package/gulp-imagemin
+    imagemin: {},
 
     //  https://www.npmjs.com/package/gulp-plumber
     plumber: { errorHandler: errorHandler }
