@@ -1,3 +1,1 @@
-import { Bug } from './controllers/Bug';
-
-var bug = new Bug();
+console.log('Hell Yeah!');

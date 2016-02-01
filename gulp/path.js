@@ -7,14 +7,14 @@ let srcDir = 'app',
 export default {
     entries: {
         style: [`./${ srcDir }/style/app.sass`],
-        js: [`./${ srcDir }/js/app.js`, `./${ srcDir }/js/admin.js`]
+        js: [`./${ srcDir }/js/app.js`]
     },
     all: {
         template: `${ srcDir }/templates/**/*.jade`,
         js: `${ srcDir }/js/**/*.js`,
         style: `${ srcDir }/style/**/*.sass`,
         fonts: [`${ srcDir }/fonts/**/*.*`],
-        images: `${ srcDir }/images/**/*.*`
+        images: `${ srcDir }/images/**/*.{gif,jpg,png,svg}`
     },
     dest: {
         js: `${ publicDir }/js`,
